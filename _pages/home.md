@@ -3,66 +3,78 @@ title: "COPS IG - Home"
 layout: homelay
 excerpt: "COPS IG at IIT BHU"
 sitemap: false
-permalink: /IG-webiste
+permalink: /
+
 ---
 
-We are a dynamic research group at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl). Our aim is to explore and understand [quantum materials](http://condensedconcepts.blogspot.nl/2013/05/what-is-quantum-matter.html), including strange metals, high-temperature superconductors, and quantum critical electron matter.
+<style>
+/* added a shift class to shift the carousel's chevron */
+.shift{
+  margin-top: -140px;
+}
+figure {
+     margin-bottom:30px;
+     margin-top:30px;
+     margin-left:65px;
+}
+</style>
 
+
+  We are the “Intelligence Group” at [Club Of Programmers, IIT BHU](https://www.copsiitbhu.co.in/). We aim at exploring all things ML and strive to foster the research culture in our college. The members of the club work on various projects in their respective domains of interest and have multiple publications in their names. 
+
+  <br>
+
+  We promote teamwork and encourage freshers to collaborate on projects with the guidance of senior mentors. We regularly conduct workshops and talks for students to learn and know of new and exciting approaches in the field of ML. To vitalize the research community among our students, we conduct meticulous paper reading sessions to discuss research papers with an aim to pursue research projects.
+
+  <br>
+
+  As for the budding young members, we bid them to delve deep into the field and develop real-world applications of their learnings.
+
+  <br>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
-    <!-- Menu -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
-    </ol>
-
-    <!-- Items -->
-    <div class="carousel-inner" markdown="0">
-        <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/IG-website/images/slider7001400/QPI_Rh.jpg" alt="Slide 1" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/IG-website/images/slider7001400/SmartTipSide.jpg" alt="Slide 2" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/IG-website/images/slider7001400/SaphireSTM2.jpg" alt="Slide 3" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/IG-website/images/slider7001400/lab.jpg" alt="Slide 4" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/IG-website/images/slider7001400/Fig_Science_Web.jpg" alt="Slide 5" />
-        </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/IG-website/images/slider7001400/cake_web.jpg" alt="Slide 6" />
-        </div>
+<!-- Menu -->
+<ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+    <li data-target="#carousel" data-slide-to="3"></li>
+    <li data-target="#carousel" data-slide-to="4"></li>
+    <li data-target="#carousel" data-slide-to="5"></li>
+    <li data-target="#carousel" data-slide-to="6"></li>
+</ol>
+<!-- Items -->
+<div class="carousel-inner" markdown="0">
+ <div class="item active">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/COPS_LOGO.png" alt="Slide 1" />
     </div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <div class="item">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/AS.png" alt="Slide 2" />
+    </div>
+    <div class="item">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SN!.png" alt="Slide 3" />
+    </div>
+    <div class="item">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/GPT_CODING_DEMONSTARTION (2).png" alt="Slide 4" />
+    </div>
+    <div class="item">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/COPS-IG '21 TEAM MEET.png" alt="Slide 5" />
+    </div>
+  
+<!-- added a shift class -->
+  <a class="left carousel-control shift" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+<!-- added a shift class -->
+  <a class="right carousel-control shift" href="#carousel" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
-To this end, we develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom. We want to be able to build the perfect instruments to answer the  scientific questions we deem most important (see [Research](research)).
+<!-- </div> -->
 
-We are located at Leiden University, the birthplace of superconductivity and home to Kamerlingh Onnes, Lorentz, Huygens, Einstein, de Sitter, and others (see e.g. [the wall of signatures from Ehrenfest lecturers](https://www.lorentz.leidenuniv.nl/history/colloquium/muur_heel.html)). We exchange ideas and work with our neighbors from [Quantum Matter & Optics](http://www.physics.leidenuniv.nl/qo-home), as well as with the colleagues from our [world-class theory section](https://www.lorentz.leidenuniv.nl).
-
- **We are  looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
-
-
-We are grateful for funding from Leiden University, [NWO](www.nwo.nl) ([Vidi talent scheme](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme) and the [Frontiers in Nanoscience program](https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront)), and from an [ERC starting grant](https://erc.europa.eu/funding/starting-grants).
-
-<figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/IG-website/images/logopic/Logo_Leiden.jpg" style="width: 210px">
-  <img src="{{ site.url }}{{ site.baseurl }}/IG-website/images/logopic/Logo_Nanofront.jpg" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/IG-website/images/logopic/Logo_NWO.jpg" style="width: 120px">
-  <img src="{{ site.url }}{{ site.baseurl }}/IG-website/images/logopic/Logo_ERC.jpg" style="width: 110px">
-</figure>
+<br>
+ People new to the field of ML&AI may visit the curated roadmap under the resources head. On the flip side, if you wish to learn about our current ventures, head on to the activities page. Visit the people section to know about the multiple accolades garnered by the members of COPS IG.
+ <br>
+ <br>
+ <br>

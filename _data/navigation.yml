@@ -1,11 +1,9 @@
 - title: Home
-  url: 
+  url:
 - title: People
   url: people
 - title: Projects
-  url: projects
-- title: Blog
-  url: blog
+  url: project
 - title: Resources
   url: /
   sublinks:
@@ -13,10 +11,8 @@
         url: roadmap
       - title: AI Exercise
         url: excercise
-      - title: Other Links
-        url: other
-- title: Publication
-  url: publications
+      - title: AI/ML/Data Science Roadmap for Beginners
+        url: beginnersRoadmap
 - title: Activities
   url: /
   sublinks:
